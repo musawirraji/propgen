@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Focus circle -->
+  <circle cx="200" cy="150" r="100" fill="#e1f5fe" opacity="0.7"/>
+  
+  <!-- Code block left - developer -->
+  <rect x="80" y="100" width="100" height="100" fill="#263238" rx="5" ry="5"/>
+  
+  <!-- Code lines -->
+  <text x="90" y="120" font-family="monospace" font-size="10" fill="#64b5f6">function app() {</text>
+  <text x="95" y="135" font-family="monospace" font-size="10" fill="#4caf50">  return (</text>
+  <text x="100" y="150" font-family="monospace" font-size="10" fill="#ff9800">    &lt;div&gt;</text>
+  <text x="105" y="165" font-family="monospace" font-size="10" fill="#f5f5f5">      &lt;h1&gt;Hello&lt;/h1&gt;</text>
+  <text x="100" y="180" font-family="monospace" font-size="10" fill="#ff9800">    &lt;/div&gt;</text>
+  <text x="95" y="195" font-family="monospace" font-size="10" fill="#4caf50">  );</text>
+  <text x="90" y="210" font-family="monospace" font-size="10" fill="#64b5f6">}</text>
+  
+  <!-- No-code builder right -->
+  <rect x="220" y="100" width="100" height="100" fill="white" stroke="#1976d2" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- Visual builder elements -->
+  <rect x="230" y="110" width="80" height="20" fill="#bbdefb" rx="3" ry="3"/>
+  <text x="250" y="125" font-family="Arial" font-size="10" fill="#1976d2" text-anchor="middle">Header</text>
+  
+  <rect x="230" y="140" width="80" height="20" fill="#bbdefb" rx="3" ry="3"/>
+  <text x="250" y="155" font-family="Arial" font-size="10" fill="#1976d2" text-anchor="middle">Image</text>
+  
+  <rect x="230" y="170" width="80" height="20" fill="#bbdefb" rx="3" ry="3"/>
+  <text x="250" y="185" font-family="Arial" font-size="10" fill="#1976d2" text-anchor="middle">Button</text>
+  
+  <!-- Drag handle -->
+  <circle cx="270" cy="155" r="5" fill="#1976d2"/>
+  <line x1="265" y1="155" x2="275" y2="155" stroke="white" stroke-width="1.5"/>
+  <line x1="265" y1="152" x2="275" y2="152" stroke="white" stroke-width="1.5"/>
+  <line x1="265" y1="158" x2="275" y2="158" stroke="white" stroke-width="1.5"/>
+  
+  <!-- Connecting elements -->
+  <path d="M180 150 C200 150, 200 150, 220 150" stroke="#9c27b0" stroke-width="2" stroke-dasharray="5,3" fill="none"/>
+  
+  <!-- API/data connector -->
+  <rect x="180" y="80" width="40" height="30" fill="white" stroke="#673ab7" stroke-width="2" rx="3" ry="3"/>
+  <text x="200" y="95" font-family="monospace" font-size="10" fill="#673ab7" text-anchor="middle">API</text>
+  <path d="M180 95 C160 95, 160 110, 160 110" stroke="#673ab7" stroke-width="1.5" fill="none"/>
+  <path d="M220 95 C240 95, 240 110, 240 110" stroke="#673ab7" stroke-width="1.5" fill="none"/>
+  
+  <!-- Project output -->
+  <rect x="180" y="200" width="40" height="30" fill="white" stroke="#009688" stroke-width="2" rx="3" ry="3"/>
+  <text x="200" y="220" font-family="Arial" font-size="12" fill="#009688" text-anchor="middle">App</text>
+  <path d="M180 215 C170 215, 160 200, 160 190" stroke="#009688" stroke-width="1.5" fill="none"/>
+  <path d="M220 215 C230 215, 240 200, 240 190" stroke="#009688" stroke-width="1.5" fill="none"/>
+  
+  <!-- Gears -->
+  <circle cx="60" cy="80" r="15" fill="none" stroke="#78909c" stroke-width="2"/>
+  <circle cx="60" cy="80" r="8" fill="none" stroke="#78909c" stroke-width="2"/>
+  <path d="M60 65 L60 60 M60 95 L60 100 M45 80 L40 80 M75 80 L80 80 M48 68 L44 64 M72 92 L76 96 M48 92 L44 96 M72 68 L76 64" stroke="#78909c" stroke-width="2"/>
+  
+  <circle cx="340" cy="80" r="15" fill="none" stroke="#78909c" stroke-width="2"/>
+  <circle cx="340" cy="80" r="8" fill="none" stroke="#78909c" stroke-width="2"/>
+  <path d="M340 65 L340 60 M340 95 L340 100 M325 80 L320 80 M355 80 L360 80 M328 68 L324 64 M352 92 L356 96 M328 92 L324 96 M352 68 L356 64" stroke="#78909c" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="200" y="260" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#283593">Engineer & No-Code Developer</text>
+</svg>
